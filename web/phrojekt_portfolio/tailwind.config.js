@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: 'var(--font-titillium)',
+        alt: 'var(--font-inika)',
+      },
       colors: {
         'dark-purple': '#0C0016',
-        'text-purple': '#1B0131',
+        'medium-purple': '#1B0131',
         'green': '#0FB53E'
       }, 
       backgroundImage: {
