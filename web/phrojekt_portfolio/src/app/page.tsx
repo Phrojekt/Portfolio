@@ -5,6 +5,7 @@ import {
   Titillium_Web as Titillium,
   Inika as Inika,
 } from 'next/font/google'
+import { Projects } from '@/components/Projects'
 
 const titillium = Titillium({ 
   subsets: ['latin'],
@@ -19,10 +20,12 @@ const inika = Inika({
 
 export default function Home() {
   return (
-    <main className={`${titillium.variable} ${inika.variable} w-screen font-sans bg-dark-purple h-full`}>
     <body>
-      <HeroSection />
+      <main className={`${titillium.variable} ${inika.variable} w-full font-sans bg-dark-purple`}>
+        <HeroSection />
+        <Projects />
+    </main>
     </body>
-  </main>
+    
   )
 }

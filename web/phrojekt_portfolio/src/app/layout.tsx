@@ -1,5 +1,3 @@
-
-
 export const metadata = {
   title: 'Phrojekt',
   description: 'Portfolio de Paulo Henrique | @Phrojekt_dev',
@@ -7,7 +5,7 @@ export const metadata = {
 
 export default function RootLayout({children,}: { children: React.ReactNode}) {
   return (
-    <main>    
+    <main className="w-full h-full">
       {children}
     </main>
   )
