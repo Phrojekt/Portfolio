@@ -21,7 +21,7 @@ const inika = Inika({
 export default function Home() {
   return (
     <body>
-      <main className={`${titillium.variable} ${inika.variable} w-full font-sans bg-dark-purple`}>
+      <main className={`${titillium.variable} ${inika.variable} w-full h-fit font-sans bg-dark-purple`}>
         <HeroSection />
         <Projects />
     </main>

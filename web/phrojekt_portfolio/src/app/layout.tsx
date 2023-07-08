@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Phrojekt',
+  title: 'Phrojekt | Paulo Henrique',
   description: 'Portfolio de Paulo Henrique | @Phrojekt_dev',
 }
 
