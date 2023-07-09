@@ -14,30 +14,57 @@ export function Projects() {
         </div>
       </div>
       <div className="mt-[70px] grid sm:grid-cols-1 md:grid-cols-2 justify-center gap-10">
+
         <div className=" flex flex-col gap-y-3">
           <h2 className="text-white text-2xl font-bold">Doctor Strange Fanpage</h2>
           <Image src={DoctorStrangeProject} alt="doctorStrangeProject"/>
-          <div className="flex justify-around p-0 m-0">
-            <Link href="#" className="flex flex-1 items-center justify-center rounded-md bg-green h-[40px] p-[10px]"> 
+          <div className="flex justify-center gap-x-2 p-0 m-0">
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
             </Link>
-            <Link href="#" className="flex flex-1 items-center justify-center rounded-md bg-green h-[40px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Github</p>
             </Link>
-          </div>
-          
+          </div>  
         </div>
-        <div className="flex flex-col gap-3">
+
+        <div className="flex flex-col gap-y-3">
           <h2 className="text-white text-2xl font-bold">Rental Mobilistic (Minimum Viable Product)</h2>
           <Image src={RentalProject} alt="rentalMobilisticProject"/>
+          <div className="flex justify-center gap-x-2 p-0 m-0">
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
+              <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
+            </Link>
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
+              <p className=" font-alt text-2xl text-medium-purple">Github</p>
+            </Link>
+          </div>    
         </div>
-        <div className="flex flex-col gap-3">
+
+        <div className="flex flex-col gap-y-3">
           <h2 className="text-white text-2xl font-bold">Pokédex(PokéAPI)</h2>
           <Image src={PokeDexProject} alt="pokeDexProject"/>
+          <div className="flex justify-center gap-x-2 p-0 m-0">
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
+              <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
+            </Link>
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
+              <p className=" font-alt text-2xl text-medium-purple">Github</p>
+            </Link>
+          </div>   
         </div>
-        <div className="flex flex-col gap-3">
+
+        <div className="flex flex-col gap-y-3">
           <h2 className="text-white text-2xl font-bold">Calculadora</h2>
           <Image src={CalculatorProject} alt="CalculatorProject"/>
+          <div className="flex justify-center gap-x-2 p-0 m-0">
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
+              <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
+            </Link>
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[230px] p-[10px]"> 
+              <p className=" font-alt text-2xl text-medium-purple">Github</p>
+            </Link>
+          </div>  
         </div>
       </div>
     </div>
