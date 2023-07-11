@@ -18,10 +18,10 @@ export function Projects() {
           <h2 className="text-white text-2xl font-bold">Doctor Strange Fanpage</h2>
           <Image src={DoctorStrangeProject} alt="doctorStrangeProject"/>
           <div className="flex justify-center gap-x-2 p-0 m-0 -translate-x-2">
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green hover:bg-hover-green h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Github</p>
             </Link>
           </div>  
@@ -31,10 +31,10 @@ export function Projects() {
           <h2 className="text-white text-2xl font-bold">Rental Mobilistic (MVP)</h2>
           <Image src={RentalProject} alt="rentalMobilisticProject"/>
           <div className="flex justify-center gap-x-2 p-0 m-0 -translate-x-2">
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Github</p>
             </Link>
           </div>     
@@ -44,10 +44,10 @@ export function Projects() {
           <h2 className="text-white text-2xl font-bold">Pokédex(PokéAPI)</h2>
           <Image src={PokeDexProject} alt="pokeDexProject"/>
           <div className="flex justify-center gap-x-2 p-0 m-0 -translate-x-2">
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Github</p>
             </Link>
           </div>  
@@ -57,10 +57,10 @@ export function Projects() {
           <h2 className="text-white text-2xl font-bold">Calculadora</h2>
           <Image src={CalculatorProject} alt="CalculatorProject"/>
           <div className="flex justify-center gap-x-2 p-0 m-0 -translate-x-2">
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-green h-[40px] w-[250px] p-[10px]"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Github</p>
             </Link>
           </div>  

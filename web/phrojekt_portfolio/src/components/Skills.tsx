@@ -22,33 +22,44 @@ export function Skills() {
       </div>
 
       <div className="grid grid-cols-3 gap-y-6 justify-items-center mt-[20px] pb-[50px]">
-        <div>
+
+        <div className="">
           <Image src={HTMLBox} alt="Html" />
         </div>
+
         <div>
           <Image src={CSSBox} alt="CSS" />
         </div>
+
         <div>
           <Image src={JSBox} alt="JS" />
         </div>
+
+
         <div>
           <Image src={ReactBox} alt="React" />
         </div>
+
         <div>
           <Image src={NextBox} alt="Next" />
         </div>
+
         <div>
           <Image src={TSBox} alt="TS" />
         </div>
+
         <div>
           <Image src={TailBox} alt="Tailwindcss" />
         </div>
+
         <div>
           <Image src={FigBox} alt="Figma" />
         </div>
+
         <div>
           <Image src={GitBox} alt="Git" />
         </div>
+
       </div>
     </div>
   )

@@ -16,13 +16,13 @@ export function AboutMe () {
           <div className="text-medium-purple w-9/12 font-bold font-sans text-[26px]">Meu nome é Paulo Henrique, sou um Desenvolvedor Frontend com formação complementar em UX Designer, focado em criar interfaces excepcionais para proporcionar experiências memoráveis aos usuários. Minha abordagem se baseia em metodologias ágeis, com ênfase na transparência e resolução de problemas para atender às necessidades do cliente. Sou um entusiasta do aprendizado contínuo e estou sempre em busca de evolução.
           </div>
           <div className="flex gap-x-2 mt-[20px]">
-            <Link href="#" className="flex items-center justify-center rounded-md bg-dark-purple h-[40px] w-[125px] p-[10px] hover:bg-medium-purple border-black border-[1px] hover:border-white"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white"> 
               <p className=" font-alt text-2xl text-white font-bold">Linkedin</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-dark-purple h-[40px] w-[125px] p-[10px] hover:bg-medium-purple border-black border-[1px] hover:border-white"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white"> 
               <p className=" font-alt text-2xl text-white font-bold">Github</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-dark-purple h-[40px] w-[125px] p-[10px] hover:bg-medium-purple border-black border-solid border-[1px] hover:border-white"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] w-[125px] p-[10px] hover:bg-dark-purple border-black border-solid border-[1px] hover:border-white"> 
               <p className=" font-alt text-2xl text-white font-bold">Currículo</p>
             </Link>
           </div>
