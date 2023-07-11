@@ -1,10 +1,14 @@
 import './globals.css'
 import { HeroSection } from '@/components/HeroSection'
+import { Projects } from '@/components/Projects'
+import { AboutMe } from '@/components/AboutMe'
+import { Footer } from '@/components/Footer'
 import {
   Titillium_Web as Titillium,
   Inika as Inika,
 } from 'next/font/google'
-import { Projects } from '@/components/Projects'
+
+
 
 const titillium = Titillium({ 
   subsets: ['latin'],
@@ -23,6 +27,8 @@ export default function Home() {
       <main className={`${titillium.variable} ${inika.variable} w-full h-fit font-sans bg-dark-purple`}>
         <HeroSection />
         <Projects />
+        <AboutMe />
+        <Footer />
     </main>
     </body>
     
