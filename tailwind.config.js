@@ -6,6 +6,14 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'sm': '300px',
+
+      'md': '480px',
+
+      'lg': '768px',
+    },
+
     extend: {
       fontFamily: {
         sans: 'var(--font-titillium)',
