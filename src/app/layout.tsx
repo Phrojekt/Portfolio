@@ -7,8 +7,6 @@ import {
   Inika as Inika,
 } from 'next/font/google'
 
-
-
 const titillium = Titillium({ 
   subsets: ['latin'],
   weight: [ '200', '300', '400', '600', '700'],
@@ -28,6 +26,7 @@ export const metadata = {
 
 export default function RootLayout({children,}: { children: React.ReactNode}) {
   return (
+    <html lang="pt-BR" suppressHydrationWarning={true}>
       <body>
         <main className={`${titillium.variable} ${inika.variable} w-full h-fit font-sans bg-dark-purple`}>
           <HeroSection />
@@ -36,5 +35,7 @@ export default function RootLayout({children,}: { children: React.ReactNode}) {
           <Footer />
         </main>
       </body>
-  )
+    </html>  
+    )
+
 }
