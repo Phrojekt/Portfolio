@@ -35,14 +35,37 @@ export function Skills({changeTitle, handleChangeText}: any) {
           <Image src={HTMLBox} alt="Html" />
         </button>
 
-        <button type="button" onClick={() => changeTitle('CSS')}>
+        <button type="button" onClick={() =>handleSetSkills('CSS', htmlText)}>
           <Image src={CSSBox} alt="CSS" />
         </button>
 
-        <button type="button" onClick={() => changeTitle('JavaScript')}>
+        <button type="button" onClick={() => handleSetSkills('JavaScript', htmlText)}>
           <Image src={JSBox} alt="JS" />
         </button>
 
+        <button type="button" onClick={() => handleSetSkills('React', htmlText)}>
+          <Image src={ReactBox} alt="React" />
+        </button>
+
+        <button type="button" onClick={() => handleSetSkills('Next.js', htmlText)}>
+          <Image src={NextBox} alt="Next" />
+        </button>
+
+        <button type="button" onClick={() => handleSetSkills('TypeScript', htmlText)}>
+          <Image src={TSBox} alt="TypeScript" />
+        </button>
+
+        <button type="button" onClick={() => handleSetSkills('Tailwind', htmlText)}>
+          <Image src={TailBox} alt="Tailwind" />
+        </button>
+
+        <button type="button" onClick={() => handleSetSkills('Figma', htmlText)}>
+          <Image src={FigBox} alt="React" />
+        </button>
+
+        <button type="button" onClick={() => handleSetSkills('Git', htmlText)}>
+          <Image src={GitBox} alt="Git" />
+        </button>
         
 
       </div>
