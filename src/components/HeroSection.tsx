@@ -15,7 +15,7 @@ export function HeroSection () {
             <Image src={UserIcon} alt="UserIcon"></Image> 
             <p className=" font-alt sm:text-lg md:text-2xl text-medium-purple">&gt; Currículo</p>
           </Link>
-          <Link href="#" className=" flex flex-1 items-center justify-start gap-2 rounded-md bg-green  hover:bg-hover-green sm:h-[20px] sm:w-38 md:h-[40px] p-[10px] md:w-48"> 
+          <Link href="https://github.com/Phrojekt" target="_blank" className=" flex flex-1 items-center justify-start gap-2 rounded-md bg-green  hover:bg-hover-green sm:h-[20px] sm:w-38 md:h-[40px] p-[10px] md:w-48"> 
             <Image src={Github} alt="Github"></Image> 
             <p className=" font-alt sm:text-lg md:text-2xl text-medium-purple"> &gt; Github</p>
           </Link>

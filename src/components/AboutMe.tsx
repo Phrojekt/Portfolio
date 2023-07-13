@@ -2,10 +2,13 @@
 import Link from "next/link";
 import { Skills } from "./Skills";
 import { useState } from "react";
+import { defaultTitle, defaultText } from "./TechText"
 
 export function AboutMe () {
-  const [title, setTitle] = useState<string>("Sobre mim");
-  const [text, setText] = useState<string>("Meu nome é Paulo Henrique, sou um Desenvolvedor Frontend com formação complementar em UX Designer, focado em criar interfaces excepcionais para proporcionar experiências memoráveis aos usuários. Minha abordagem se baseia em metodologias ágeis, com ênfase na transparência e resolução de problemas para atender às necessidades do cliente. Sou um entusiasta do aprendizado contínuo e estou sempre em busca de evolução.");
+
+  const [title, setTitle] = useState<string>(defaultTitle);
+  const [text, setText] = useState<string>(defaultText);
+  const screenWidth = window.innerWidth;
 
   function changeTitle(newTitle: string) {
     setTitle(newTitle)
@@ -14,33 +17,43 @@ export function AboutMe () {
     setText(newText)
   }
 
+  function handleReturnSet(title: string, text: string) {
+    changeTitle(title)
+    handleChangeText(text)
+  }
+
   return(
     <div className="-translate-y-20">
-      <div className="h-full pl-[110px] m-0 translate-y-32 pr-[110px]">
-        <div>
+      <div className="h-full sm:pl-[10px] md:pl-[70px] lg:pl-[110px] m-0 translate-y-32 sm:pr-[10px] md:pr-[70px] lg:pr-[110px]">
+        <div className="flex space-x-8">
           <div className=" z-10 flex justify-center -translate-y-4 bg-white rounded-b-lg w-[255px] pt-[80px] pb-[40px] font-bold text-[40px]">
               &lt; {title} &gt;
           </div>
+          <button type="button" onClick={() => handleReturnSet(defaultTitle, defaultText)} className={`pt-[80px] pl-[80px] text-6xl text-dark-purple ${title === defaultTitle ? "invisible" : "visible"}`}>X
+          </button>
         </div>
       </div>
-      <div className="grid grid-cols-2">
-        <div className="m-0 bg-green pl-[110px] pt-[170px] pb-[180px] rounded-lg">
-          <div className="text-medium-purple w-9/12 font-bold font-sans text-[26px]">{text}
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2">
+        <div className="m-0 bg-green sm:pl-[10px] sm:pr-[10px] md:pl-[50px] md:pr-[20px] lg:pl-[110px] pt-[170px] pb-[180px] rounded-lg">
+          <div className="text-medium-purple sm:w-11/12 lg:w-9/12 font-bold font-sans lg:text-[26px] sm:text-[20px]">{text}
           </div>
-          <div className="flex gap-x-2 mt-[20px]">
-            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white"> 
+          <div className=" pt-[40px] sm:block lg:hidden">
+            <Skills changeTitle={changeTitle} handleChangeText={handleChangeText} className="" />
+          </div>
+          <div className={`flex flex-1 flex-wrap sm:flex-col md:flex-row sm:items-start md:justify-center lg:justify-start md:gap-x-2 mt-[20px] ${title === defaultTitle ? "visible" : "invisible"}`}>
+            <Link href="https://www.linkedin.com/in/phrojektdev" target="_blank" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] sm:w-[100%] md:w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white mb-[10px]"> 
               <p className=" font-alt text-2xl text-white font-bold">Linkedin</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white"> 
+            <Link href="https://github.com/Phrojekt" target="_blank" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] sm:w-[100%] md:w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white mb-[10px]"> 
               <p className=" font-alt text-2xl text-white font-bold">Github</p>
             </Link>
-            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] w-[125px] p-[10px] hover:bg-dark-purple border-black border-solid border-[1px] hover:border-white"> 
+            <Link href="#" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] sm:w-[100%] md:w-[125px] p-[10px] hover:bg-dark-purple border-black border-solid border-[1px] hover:border-white mb-[10px]"> 
               <p className=" font-alt text-2xl text-white font-bold">Currículo</p>
             </Link>
           </div>
         </div>
-        <div className="grid-span-2 p-[20%] pt-[170px]">
-          <Skills changeTitle={changeTitle} handleChangeText={handleChangeText} />
+        <div className="grid-span-2 p-[20%] pt-[170px] sm:hidden lg:block">
+          <Skills changeTitle={changeTitle} handleChangeText={handleChangeText} className="" />
         </div>
       </div>
     </div>
