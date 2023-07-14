@@ -46,7 +46,7 @@ export function AboutMe () {
             <Link href="https://github.com/Phrojekt" target="_blank" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] sm:w-[100%] md:w-[125px] p-[10px] hover:bg-dark-purple border-black border-[1px] hover:border-white mb-[10px]"> 
               <p className=" font-alt text-2xl text-white font-bold">Github</p>
             </Link>
-            <Link href="/cv.pdf" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] sm:w-[100%] md:w-[125px] p-[10px] hover:bg-dark-purple border-black border-solid border-[1px] hover:border-white mb-[10px]"> 
+            <Link href="/cv.pdf" target="_blank" className="flex items-center justify-center rounded-md bg-medium-purple h-[40px] sm:w-[100%] md:w-[125px] p-[10px] hover:bg-dark-purple border-black border-solid border-[1px] hover:border-white mb-[10px]"> 
               <p className=" font-alt text-2xl text-white font-bold">Currículo</p>
             </Link>
           </div>
