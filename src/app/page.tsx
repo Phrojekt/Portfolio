@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/HeroSection'
 import { Projects } from '@/components/Projects'
 import { AboutMe } from '@/components/AboutMe'
 import { Footer } from '@/components/Footer'
+
 import {
   Titillium_Web as Titillium,
   Inika as Inika,
@@ -19,19 +20,18 @@ const inika = Inika({
   variable: '--font-inika'
 })
 
-
-
 export default function Home() {
   return (
-      <body>
-        <main className={`${titillium.variable} ${inika.variable} w-full h-fit font-sans bg-dark-purple`}>
+
+    <body className="bg-dark-purple">
+        <main className={`${titillium.variable} ${inika.variable} w-full h-full font-sans`}>
           <div>
             <HeroSection />
             <Projects />
             <AboutMe />  
             <Footer />
-          </div>
+          </div> 
         </main>
-      </body>   
+      </body>
   )
 }

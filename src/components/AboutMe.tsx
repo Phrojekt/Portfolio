@@ -8,7 +8,6 @@ export function AboutMe () {
 
   const [title, setTitle] = useState<string>(defaultTitle);
   const [text, setText] = useState<string>(defaultText);
-  const screenWidth = window.innerWidth;
 
   function changeTitle(newTitle: string) {
     setTitle(newTitle)
