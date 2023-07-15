@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Phrojekt | Paulo Henrique 
 
-## Getting Started
+Projeto criado com propósito de servir como um Portfolio, onde estarei atualizando dados profissionais, tecnologias aprendidas e listando projetos de destaque, como um complemento ao meu currículo profissional. 
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Acesso e Uso
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto está hospedado gratuitamente no Vercel. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Link de acesso: 
+https://portfolio-phrojekt.vercel.app/ 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+A aplicação possuí uma navegação simples baseada em rolagem vertical, onde o usuário pode encontrar botões CTA para visitar os projetos listados, para acessar meu currículo ou redes sociais. 
 
-## Learn More
+Na sessão sobre mim, você pode clicar nos ícones de tecnologias para ler um pouco sobre. 
+## Tecnologias usadas
 
-To learn more about Next.js, take a look at the following resources:
+- Node
+- React
+- Next
+- Tailwindcss
+- TypeScript
+## Licença
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+CC BY-NC-ND     
+Attribution-NonCommercial-NoDerivs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Créditos
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto foi desenvolvido por Paulo Henrique P. de Sales ou Phrojekt. A licença de uso deste projeto é: Attribution-NonCommercial-NoDerivs(CC BY-NC-ND).
