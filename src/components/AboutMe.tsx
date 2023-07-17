@@ -25,7 +25,7 @@ export function AboutMe () {
     <div className="-translate-y-20">
       <div className="h-full sm:pl-[10px] md:pl-[70px] lg:pl-[110px] m-0 translate-y-32 sm:pr-[10px] md:pr-[70px] lg:pr-[110px]">
         <div className="flex space-x-8">
-          <div className=" z-10 flex justify-center -translate-y-4 bg-white rounded-b-lg w-[255px] pt-[80px] pb-[40px] font-bold text-[40px]">
+          <div className=" z-10 flex justify-center -translate-y-4 bg-white rounded-b-lg w-[255px] pt-[80px] pb-[40px] font-bold text-4xl">
               &lt; {title} &gt;
           </div>
           <button type="button" onClick={() => handleReturnSet(defaultTitle, defaultText)} className={`pt-[80px] pl-[80px] text-6xl text-dark-purple ${title === defaultTitle ? "invisible" : "visible"}`}>X
