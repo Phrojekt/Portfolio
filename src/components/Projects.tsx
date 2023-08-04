@@ -62,7 +62,7 @@ export function Projects() {
           <div className="text-sm text-white sm:-translate-x-0 md:translate-x-2 italic">#HTML #JavaScript #CSS</div>
           <div className="flex justify-center gap-x-2 p-0 m-0 sm:-translate-x-0 md:-translate-x-2">
             <Link href="https://phrojekt.github.io/Calculator/" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Ver Mais</p>
+              <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
             </Link>
             <Link href="https://github.com/Phrojekt/Calculator" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Github</p>
