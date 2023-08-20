@@ -1,6 +1,12 @@
 'use client'
 import Line from "../images/Line.png"
 import Image from "next/image"
+import LinkedinIcon from "../images/LinkedinButton.png"
+import GitHubIcon from "../images/GithubButton.png"
+import CurriculumIcon from "../images/CurriculumButton.png"
+import EmailIcon from "../images/EmailButton.png"
+import Link from "next/link"
+
 
 export function AboutMe () {
 
@@ -13,14 +19,14 @@ export function AboutMe () {
           </div>
         </div>
       </div>
-      <div className="lg:flex md:flex sm:block">
-        <div className="m-0 bg-light-purple sm:pl-[20px] sm:pr-[10px] md:pl-[50px] md:pr-[20px] lg:pl-[110px] pt-[170px]  pb-[60px] lg:rounded-r-[60px]">
+      <div className="md:flex sm:block">
+        <div className="m-0 bg-light-purple sm:pl-[20px] sm:pr-[10px] md:col-start-1 md:col-end-2 md:pl-[50px] md:pr-[20px] lg:pl-[110px] pt-[170px] pb-[60px] md:rounded-r-[60px]">
           <div className="text-white sm:w-11/12 lg:w-[598px] font-semibold font-sans lg:text-[26px] sm:text-[18px]">Meu nome é Paulo Henrique, sou um Desenvolvedor Frontend com formação complementar em UX Design, focado em criar interfaces excepcionais para proporcionar experiências memoráveis aos usuários. Minha abordagem se baseia em metodologias ágeis, com ênfase na transparência e resolução de problemas para atender às necessidades do cliente. Sou um entusiasta do aprendizado contínuo e estou sempre em busca de evolução.
           </div>
 
           <Image src={Line} alt="Linha" className="mt-[60px] md:translate-x-[-40px]"></Image>
 
-          <div className="sm:flex sm:flex-col sm:pl-[20px] sm:gap-y-[50px] md:flex-row md:flex-wrap  lg:flex-row lg:pl-0 lg:gap-y-0 gap-x-[90px] mt-5">
+          <div className="sm:flex sm:flex-col sm:pl-[20px] sm:gap-y-[50px] md:col-start-3 md:flex-row md:flex-wrap  lg:flex-row lg:pl-0 lg:gap-y-0 gap-x-[90px] mt-5">
             
             <div>
               <div className="text-white font-bold text-xl">Soft-Skills</div>
@@ -63,6 +69,20 @@ export function AboutMe () {
           </div>
         </div>
         
+        <div className="flex flex-col items-center gap-y-4 z-10 pt-10 sm:pl-0 sm:pr-0 md:pl-[10%] md:pr-[10%] lg:pl-[15%] lg:pr-0">
+          <Link href="www.linkedin.com/in/phrojektdev" target="_blank" rel="noreferrer">
+            <Image src={LinkedinIcon} alt="LinkedinIcon" className="sm:min-w-[60px]"></Image>
+          </Link> 
+          <Link href="https://github.com/Phrojekt" target="_blank" rel="noreferrer">
+            <Image src={GitHubIcon} alt="LinkedinIcon"></Image>
+          </Link> 
+          <Link href="/cv.pdf" target="_blank" rel="noreferrer">
+            <Image src={CurriculumIcon} alt="LinkedinIcon"></Image>
+          </Link> 
+          <Link href="mailto:rick.p.sales@hotmail.com" target="_blank" rel="noreferrer">
+            <Image src={EmailIcon} alt="LinkedinIcon"></Image>
+          </Link> 
+        </div>
       </div>
     </div>
 
