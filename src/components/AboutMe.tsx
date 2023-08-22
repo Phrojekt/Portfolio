@@ -19,7 +19,7 @@ export function AboutMe () {
           </div>
         </div>
       </div>
-      <div className="md:flex sm:block">
+      <div className="lg:flex sm:block">
         <div className="m-0 bg-light-purple sm:pl-[20px] sm:pr-[10px] md:col-start-1 md:col-end-2 md:pl-[50px] md:pr-[20px] lg:pl-[110px] pt-[170px] pb-[60px] md:rounded-r-[60px]">
           <div className="text-white sm:w-11/12 lg:w-[598px] font-semibold font-sans lg:text-[26px] sm:text-[18px]">Meu nome é Paulo Henrique, sou um Desenvolvedor Frontend com formação complementar em UX Design, focado em criar interfaces excepcionais para proporcionar experiências memoráveis aos usuários. Minha abordagem se baseia em metodologias ágeis, com ênfase na transparência e resolução de problemas para atender às necessidades do cliente. Sou um entusiasta do aprendizado contínuo e estou sempre em busca de evolução.
           </div>
@@ -69,18 +69,18 @@ export function AboutMe () {
           </div>
         </div>
         
-        <div className="flex flex-col items-center gap-y-4 z-10 pt-10 sm:pl-0 sm:pr-0 md:pl-[10%] md:pr-[10%] lg:pl-[15%] lg:pr-0">
+        <div className="flex sm:justify-center lg:justify-start lg:flex-col items-center gap-x-4 gap-y-4 z-10 pt-10 sm:pl-0 sm:pr-0 md:pl-[10%] md:pr-[10%] lg:pl-[15%] lg:pr-0">
           <Link href="www.linkedin.com/in/phrojektdev" target="_blank" rel="noreferrer">
-            <Image src={LinkedinIcon} alt="LinkedinIcon" className="sm:min-w-[60px]"></Image>
+            <Image src={LinkedinIcon} alt="LinkedinIcon" className="sm:max-w-[45px] md:min-w-[60px]"></Image>
           </Link> 
           <Link href="https://github.com/Phrojekt" target="_blank" rel="noreferrer">
-            <Image src={GitHubIcon} alt="LinkedinIcon"></Image>
+            <Image src={GitHubIcon} alt="GithubIcon" className="sm:max-w-[45px] md:min-w-[60px]" ></Image>
           </Link> 
           <Link href="/cv.pdf" target="_blank" rel="noreferrer">
-            <Image src={CurriculumIcon} alt="LinkedinIcon"></Image>
+            <Image src={CurriculumIcon} alt="CurriculumIcon" className="sm:max-w-[45px] md:min-w-[60px]"></Image>
           </Link> 
           <Link href="mailto:rick.p.sales@hotmail.com" target="_blank" rel="noreferrer">
-            <Image src={EmailIcon} alt="LinkedinIcon"></Image>
+            <Image src={EmailIcon} alt="MailIcon" className="sm:max-w-[45px] md:min-w-[60px]"></Image>
           </Link> 
         </div>
       </div>
