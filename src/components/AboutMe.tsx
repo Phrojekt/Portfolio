@@ -71,16 +71,16 @@ export function AboutMe () {
         
         <div className="flex sm:justify-center lg:justify-start lg:flex-col items-center gap-x-4 gap-y-4 z-10 pt-10 sm:pl-0 sm:pr-0 md:pl-[10%] md:pr-[10%] lg:pl-[15%] lg:pr-0">
           <Link href="www.linkedin.com/in/phrojektdev" target="_blank" rel="noreferrer">
-            <Image src={LinkedinIcon} alt="LinkedinIcon" className="sm:max-w-[45px] md:min-w-[60px]"></Image>
+            <Image src={LinkedinIcon} alt="LinkedinIcon" className="sm:w-[45px] md:min-w-[60px]"></Image>
           </Link> 
           <Link href="https://github.com/Phrojekt" target="_blank" rel="noreferrer">
-            <Image src={GitHubIcon} alt="GithubIcon" className="sm:max-w-[45px] md:min-w-[60px]" ></Image>
+            <Image src={GitHubIcon} alt="GithubIcon" className="sm:w-[45px] md:min-w-[60px]" ></Image>
           </Link> 
           <Link href="/cv.pdf" target="_blank" rel="noreferrer">
-            <Image src={CurriculumIcon} alt="CurriculumIcon" className="sm:max-w-[45px] md:min-w-[60px]"></Image>
+            <Image src={CurriculumIcon} alt="CurriculumIcon" className="sm:w-[45px] md:min-w-[60px]"></Image>
           </Link> 
           <Link href="mailto:rick.p.sales@hotmail.com" target="_blank" rel="noreferrer">
-            <Image src={EmailIcon} alt="MailIcon" className="sm:max-w-[45px] md:min-w-[60px]"></Image>
+            <Image src={EmailIcon} alt="MailIcon" className="sm:w-[45px] md:min-w-[60px]"></Image>
           </Link> 
         </div>
       </div>
