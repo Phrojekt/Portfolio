@@ -17,7 +17,7 @@ export function Projects() {
         <div className=" flex flex-col gap-y-3">
           <h2 className="text-white text-2xl font-bold">Doctor Strange Fanpage</h2>
           <Image src={DoctorStrangeProject} alt="doctorStrangeProject"/>
-          <div className="text-sm text-white sm:-translate-x-0 lg:translate-x-2 italic">#HTML #JavaScript #CSS</div>
+          <div className="text-sm text-white sm:-translate-x-0 lg:translate-x-2 italic">#Figma #HTML #JavaScript #CSS</div>
           <div className="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-8 p-0 m-0">
             <Link href="https://phrojekt.github.io/Doctor-Strange/" target="_blank" className="flex items-center justify-center rounded-md bg-green hover:bg-hover-green h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
@@ -31,7 +31,7 @@ export function Projects() {
         <div className="flex flex-col gap-y-3">
           <h2 className="text-white text-2xl font-bold">Rental Mobilistic (MVP)</h2>
           <Image src={RentalProject} alt="rentalMobilisticProject"/>
-          <div className="text-sm text-white sm:-translate-x-0 md:translate-x-2 italic">#HTML #JavaScript #CSS</div>
+          <div className="text-sm text-white sm:-translate-x-0 md:translate-x-2 italic">#Figma #HTML #JavaScript #CSS</div>
           <div className="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-8 p-0 m-0">
             <Link href="https://phrojekt.github.io/Rental_Mobilistic/" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
               <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
