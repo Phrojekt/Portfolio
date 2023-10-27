@@ -1,6 +1,6 @@
 import Image from "next/image"
-import DoctorStrangeProject from "../images/Doctor_Strange_Template.svg"
-import RentalProject from "../images/Rental_Template.svg"
+import DoctorStrangeProject from "../images/DSTemplate.png"
+import RentalProject from "../images/RCTemplate.png"
 import PokeDexProject from "../images/PokéDex.svg"
 import CalculatorProject from "../images/Calculator.svg"
 import Link from "next/link"
@@ -13,62 +13,49 @@ export function Projects() {
           &lt; Projetos &gt;
         </div>
       </div>
-      <div className="mt-[70px] grid sm:grid-cols-1 lg:grid-cols-2 justify-center gap-10">
-        <div className=" flex flex-col gap-y-3">
-          <h2 className="text-white text-2xl font-bold">Doctor Strange Fanpage</h2>
+      <div className="mt-[70px] grid sm:grid-cols-1 sm:pl-[5%] sm:pr-[10%] md:pl-[0%] md:pr-[0%] lg:grid-cols-2 justify-center gap-10">
+        <div className="relative flex justify-center group sm:w-[300px] md:w-[460px] lg:w-[520px] xl:w-[80%] rounded-[10px]  bg-black p-5">   
           <Image src={DoctorStrangeProject} alt="doctorStrangeProject"/>
-          <div className="text-sm text-white sm:-translate-x-0 lg:translate-x-2 italic">#Figma #HTML #JavaScript #CSS</div>
-          <div className="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-8 p-0 m-0">
-            <Link href="https://phrojekt.github.io/Doctor-Strange/" target="_blank" className="flex items-center justify-center rounded-md bg-green hover:bg-hover-green h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
-            </Link>
-            <Link href="https://github.com/Phrojekt/Doctor-Strange" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Github</p>
-            </Link>
-          </div>  
+          <div className="w-full h-full absolute left-0 top-0 bg-overlay-purple/90 group-hover:visible invisible rounded-[10px] delay-150">
+            <div className="flex flex-col gap-y-4 text-white pl-5">
+              <div className="text-3xl font-bold pt-5">Doctor Strange Fanpage</div>
+              <div className="font-semibold text-lg">HTML, CSS & JavaScript</div>
+              <div className="pt-4 w-[60%]">
+                <div>Projeto desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. <Link href="/DoctorStrangePDF.pdf" target="_blank" className="underline">Ver mais</Link></div>
+              <div className="flex gap-x-7 pt-10">
+                <Link href="https://phrojekt.github.io/Doctor-Strange/" target="_blank" className="flex items-center justify-center rounded-lg bg-green hover:bg-hover-green h-[40px] w-[140px] p-[10px]"> 
+                  <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
+                </Link>
+                <Link href="https://github.com/Phrojekt/Doctor-Strange" target="_blank" className="flex items-center justify-center rounded-lg bg-green  hover:bg-hover-green  h-[40px] w-[140px] p-[10px]"> 
+                  <p className=" font-alt text-2xl text-medium-purple">Github</p>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
 
-        <div className="flex flex-col gap-y-3">
-          <h2 className="text-white text-2xl font-bold">Rental Mobilistic (MVP)</h2>
+        <div className="relative flex justify-center group sm:w-[300px] md:w-[460px] lg:w-[520px] xl:w-[80%] rounded-[10px]  bg-Rental-Gray p-5">   
           <Image src={RentalProject} alt="rentalMobilisticProject"/>
-          <div className="text-sm text-white sm:-translate-x-0 md:translate-x-2 italic">#Figma #HTML #JavaScript #CSS</div>
-          <div className="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-8 p-0 m-0">
-            <Link href="https://phrojekt.github.io/Rental_Mobilistic/" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
-            </Link>
-            <Link href="https://github.com/Phrojekt/Rental_Mobilistic" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Github</p>
-            </Link>
-          </div>     
+          <div className="w-full h-full absolute left-0 top-0 bg-overlay-purple/90 group-hover:visible invisible rounded-[10px] delay-150">
+            <div className="flex flex-col gap-y-4 text-white pl-5">
+              <div className="text-3xl font-bold pt-5">Rental Mobilistic</div>
+              <div className="font-semibold text-lg">HTML, CSS & JavaScript</div>
+              <div className=" w-[70%]">
+                <div>Projeto MVP desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. Possuí Dashboards que atualizam automaticamente junto ao cadastro de carros e locações. <Link href="/RentalMobilisticPDF.pdf" target="_blank" className="underline">Ver mais</Link></div>
+              <div className="flex gap-x-7 pt-10">
+                <Link href="https://phrojekt.github.io/Rental_Mobilistic/" target="_blank" className="flex items-center justify-center rounded-lg bg-green hover:bg-hover-green h-[40px] w-[140px] p-[10px]"> 
+                  <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
+                </Link>
+                <Link href="https://github.com/Phrojekt/Rental_Mobilistic" target="_blank" className="flex items-center justify-center rounded-lg bg-green  hover:bg-hover-green  h-[40px] w-[140px] p-[10px]"> 
+                  <p className=" font-alt text-2xl text-medium-purple">Github</p>
+                </Link>
+                </div>
+            </div>
+          </div>
+        </div>
         </div>
 
-        <div className="flex flex-col gap-y-3">
-          <h2 className="text-white text-2xl font-bold">Pokédex(PokéAPI)</h2>
-          <Image src={PokeDexProject} alt="pokeDexProject"/>
-          <div className="text-sm text-white sm:-translate-x-0 md:translate-x-2 italic">#HTML #JavaScript #CSS</div>
-          <div className="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-8 p-0 m-0">
-            <Link href="https://phrojekt.github.io/Pokedex/" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
-            </Link>
-            <Link href="https://github.com/Phrojekt/Pokedex" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Github</p>
-            </Link>
-          </div>  
-        </div>
-
-        <div className="flex flex-col gap-y-3">
-          <h2 className="text-white text-2xl font-bold">Calculadora</h2>
-          <Image src={CalculatorProject} alt="CalculatorProject"/>
-          <div className="text-sm text-white sm:-translate-x-0 md:translate-x-2 italic">#HTML #JavaScript #CSS</div>
-          <div className="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-8 p-0 m-0">
-            <Link href="https://phrojekt.github.io/Calculator/" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
-            </Link>
-            <Link href="https://github.com/Phrojekt/Calculator" target="_blank" className="flex items-center justify-center rounded-md bg-green  hover:bg-hover-green  h-[40px] w-[250px] p-[10px]"> 
-              <p className=" font-alt text-2xl text-medium-purple">Github</p>
-            </Link>
-          </div>  
-        </div>
       </div>
     </div>
   )
