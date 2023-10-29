@@ -1,8 +1,6 @@
 import Image from "next/image"
 import DoctorStrangeProject from "../images/DSTemplate.png"
 import RentalProject from "../images/RCTemplate.png"
-import PokeDexProject from "../images/PokéDex.svg"
-import CalculatorProject from "../images/Calculator.svg"
 import Link from "next/link"
 
 export function Projects() {
@@ -21,7 +19,7 @@ export function Projects() {
               <div className="text-3xl font-bold pt-5">Doctor Strange Fanpage</div>
               <div className="font-semibold text-lg">HTML, CSS & JavaScript</div>
               <div className="pt-4 w-[60%]">
-                <div>Projeto desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. <Link href="/DoctorStrangePDF.pdf" target="_blank" className="underline">Ver mais</Link></div>
+                <div>Projeto desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. <Link href="/DoctorStrangePDF.pdf" target="_blank" className="underline text-green">Ver mais</Link></div>
               <div className="flex gap-x-7 pt-10">
                 <Link href="https://phrojekt.github.io/Doctor-Strange/" target="_blank" className="flex items-center justify-center rounded-lg bg-green hover:bg-hover-green h-[40px] w-[140px] p-[10px]"> 
                   <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
@@ -42,7 +40,7 @@ export function Projects() {
               <div className="text-3xl font-bold pt-5">Rental Mobilistic</div>
               <div className="font-semibold text-lg">HTML, CSS & JavaScript</div>
               <div className=" w-[70%]">
-                <div>Projeto MVP desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. Possuí Dashboards que atualizam automaticamente junto ao cadastro de carros e locações. <Link href="/RentalMobilisticPDF.pdf" target="_blank" className="underline">Ver mais</Link></div>
+                <div>Projeto MVP desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. Possuí Dashboards que atualizam automaticamente junto ao cadastro de carros e locações. <Link href="/RentalMobilisticPDF.pdf" target="_blank" className="underline text-green">Ver mais</Link></div>
               <div className="flex gap-x-7 pt-10">
                 <Link href="https://phrojekt.github.io/Rental_Mobilistic/" target="_blank" className="flex items-center justify-center rounded-lg bg-green hover:bg-hover-green h-[40px] w-[140px] p-[10px]"> 
                   <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
