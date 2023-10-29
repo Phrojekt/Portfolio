@@ -13,7 +13,7 @@ export function Projects() {
           &lt; Projetos &gt;
         </div>
       </div>
-      <div className="mt-[70px] grid sm:grid-cols-1 sm:pl-[5%] sm:pr-[10%] md:pl-[0%] md:pr-[0%] lg:grid-cols-2 justify-center gap-10">
+      <div className="mt-[70px] sm:pl-[5%] sm:pr-[10%] md:pl-[0%] md:pr-[0%] flex flex-wrap  justify-center gap-10">
         <div className="relative flex justify-center group sm:w-[300px] md:w-[460px] lg:w-[520px] xl:w-[80%] rounded-[10px]  bg-black p-5">   
           <Image src={DoctorStrangeProject} alt="doctorStrangeProject"/>
           <div className="w-full h-full absolute left-0 top-0 bg-overlay-purple/90 group-hover:visible invisible rounded-[10px] delay-150">
