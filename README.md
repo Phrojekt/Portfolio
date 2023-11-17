@@ -10,9 +10,9 @@ Este projeto está hospedado gratuitamente no Vercel.
 Link de acesso: 
 https://portfolio-phrojekt.vercel.app/ 
 
-A aplicação possuí uma navegação simples baseada em rolagem vertical, onde o usuário pode encontrar botões CTA para visitar os projetos listados, para acessar meu currículo ou redes sociais. 
+A aplicação possuí uma navegação simples baseada em rolagem vertical, onde o usuário pode encontrar botões CTA para visitar os projetos listados, para acessar meu currículo ou redes sociais.  
 
-Na sessão sobre mim, você pode clicar nos ícones de tecnologias para ler um pouco sobre. 
+ 
 ## Tecnologias usadas
 
 - Node
