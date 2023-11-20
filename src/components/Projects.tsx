@@ -39,7 +39,7 @@ export function Projects() {
             <div className="flex flex-col sm:gap-y-1 md:gap-y-4 text-white pl-5">
               <div className="sm:text-xl md:text-3xl font-bold pt-5">Rental Mobilistic</div>
               <div className="md:text-lg font-semibold">HTML, CSS & JavaScript</div>
-              <div className="sm:pt-0 sm:text-xs md:text-base md:pt-4 sm:w-[80%] md:w-[60%]">
+              <div className="sm:pt-0 sm:text-xs md:text-base md:pt-4 sm:w-[90%] md:w-[60%]">
                 <div>Projeto MVP desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. Possuí Dashboards que atualizam automaticamente junto ao cadastro de carros e locações. <Link href="/RentalMobilisticPDF.pdf" target="_blank" className="underline text-green">Ver mais</Link></div>
               <div className="flex sm:gap-x-1 md:gap-x-7 sm:pt-2 md:pt-10">
                 <Link href="https://phrojekt.github.io/Rental_Mobilistic/" target="_blank" className="flex items-center justify-center rounded-lg bg-green hover:bg-hover-green sm:h-[20px] md:h-[40px] sm:w-[90px] md:w-[140px] p-[10px]"> 
