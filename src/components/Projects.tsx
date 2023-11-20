@@ -16,11 +16,11 @@ export function Projects() {
           <Image src={DoctorStrangeProject} alt="doctorStrangeProject"/>
           <div className="w-full h-full absolute left-0 top-0 bg-overlay-purple/90 group-hover:visible invisible rounded-[10px] delay-150">
             <div className="flex flex-col gap-y-4 text-white pl-5">
-              <div className="text-3xl font-bold pt-5">Doctor Strange Fanpage</div>
-              <div className="font-semibold text-lg">HTML, CSS & JavaScript</div>
-              <div className="pt-4 w-[60%]">
+              <div className="sm:text-xl md:text-3xl font-bold pt-5">Doctor Strange Fanpage</div>
+              <div className="font-semibold md:text-lg">HTML, CSS & JavaScript</div>
+              <div className="sm:pt-0 sm:text-sm md:text-base md:pt-4 sm:w-[80%] md:w-[60%]">
                 <div>Projeto desenvolvido desde a concepção da interface no Figma até o protótipo funcional em HTML, CSS e JavaScript. <Link href="/DoctorStrangePDF.pdf" target="_blank" className="underline text-green">Ver mais</Link></div>
-              <div className="flex gap-x-7 pt-10">
+              <div className="flex sm:gap-x-1 md:gap-x-7 pt-10">
                 <Link href="https://phrojekt.github.io/Doctor-Strange/" target="_blank" className="flex items-center justify-center rounded-lg bg-green hover:bg-hover-green h-[40px] w-[140px] p-[10px]"> 
                   <p className=" font-alt text-2xl text-medium-purple">Visitar</p>
                 </Link>
