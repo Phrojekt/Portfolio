@@ -21,7 +21,7 @@ export function AboutMe () {
       </div>
       <div className="lg:flex sm:block">
         <div className="m-0 bg-light-purple sm:pl-[20px] sm:pr-[10px] md:col-start-1 md:col-end-2 md:pl-[50px] md:pr-[20px] lg:pl-[110px] pt-[170px] pb-[60px] md:rounded-r-[60px]">
-          <div className="text-white sm:w-11/12 lg:w-[598px] font-semibold font-sans lg:text-[26px] sm:text-[18px]">Meu nome é Paulo Henrique, sou um Desenvolvedor Frontend com formação complementar em UX Design, focado em criar interfaces excepcionais para proporcionar experiências memoráveis aos usuários. Minha abordagem se baseia em metodologias ágeis, com ênfase na transparência e resolução de problemas para atender às necessidades do cliente. Sou um entusiasta do aprendizado contínuo e estou sempre em busca de evolução.
+          <div className="text-white sm:w-11/12 lg:w-[598px] font-semibold font-sans lg:text-[20px] sm:text-[18px]">Meu nome é Paulo Henrique, sou um Desenvolvedor Frontend com formação complementar em UX Design, focado em criar interfaces excepcionais para proporcionar experiências memoráveis aos usuários. Minha abordagem se baseia em metodologias ágeis, com ênfase na transparência e resolução de problemas para atender às necessidades do cliente. Sou um entusiasta do aprendizado contínuo e estou sempre em busca de evolução.
           </div>
 
           <Image src={Line} alt="Linha" className="mt-[60px] md:translate-x-[-40px]"></Image>
@@ -62,7 +62,7 @@ export function AboutMe () {
                   <li className="text-white">
                     <div className="font-semibold">Engenharia de Software</div>
                     <div>Bacharelado, Estácio de Sá</div>
-                    <div className="text-sm">Em andamento...</div>
+                    <div className="text-sm">Graduado</div>
                   </li>
                 </ul>
               </div>
